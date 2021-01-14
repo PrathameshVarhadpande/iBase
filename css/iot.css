@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+}
+footer{
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+    height: 70px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+footer i{
+    color: red;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+}
+.image{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+}
+.image img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    opacity: 0.8;
+}
+.content{
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: green;
+    position: relative;
+    height: 1100px;
+}
+.content h1{
+    position: relative;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: center;
+}
+.content hr{
+    padding-top: 10px;
+    
+}
+.content p{
+    position: relative;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 150px;
+    text-align: justify;
+    color: white;
+}
+.content button{
+    margin-left: 640px;
+    padding: 5px;
+    border: solid 3px black;
+}
+.content button a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.content form{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 520px;
+}
+.content form input{
+    width: 450px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: groove;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.content form i{
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 23px;
+    color: yellow;
+}
+.content form input::placeholder{
+    text-align: center;
+}
+.content form button{
+    margin-top: 20px;
+    margin-left: 180px;
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: solid 3px black;
+    border-radius: 30px;
+}
+.content h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}

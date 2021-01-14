@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.login{
+    width: 600px;
+    height: 600px;
+    border: solid 5px green;
+    margin-top: 40px;
+    margin-left: 450px;
+    background-color: lightgreen;
+    border-radius: 100px;
+    position: absolute;
+}
+.login .icon{
+    margin-left: 210px;
+    margin-top: 20px;
+}
+.login .icon img{
+    width: 170px;
+    height: 170px;
+    border-radius: 360px;
+}
+.login .icon h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.login .content{
+    margin-top: -20px;
+    margin-left: 98px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+.login .content input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: groove;
+    width: 400px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.login .content input:focus{
+    outline: none;
+}
+.login .content input::placeholder{
+    text-align: center;
+}
+.login .content i{
+    position: absolute;
+    margin-top: 25px;
+    margin-left:11px;  
+}
+.login .button1{
+    margin-top: 50px;
+    background-color: black;
+    border-radius: 60px;
+    margin-left: 170px;
+    padding: 6px;
+}
+.login .button2{
+    margin-top: 50px;
+    background-color: black;
+    border-radius: 60px;
+    margin-left: 120px;
+    padding: 6px;
+}
+.login button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login .icons{
+    margin-top: 60px;
+    margin-left: 170px;
+    
+}
+.login .icons img{
+    width: 60px;
+    height: 60px;
+    border-radius: 360px;
+    margin-right: 40px;
+    
+}
+.login .icons img:hover{
+    zoom: 110%;
+}
+footer{
+    background-color: black;
+    margin-top: 700px;
+    color: whitesmoke;
+    height: 70px;
+    padding-top: 15px;
+   
+}
+footer i{
+    color: red;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+}

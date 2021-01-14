@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:dimgray;
+}
+footer{
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+    height: 70px;
+    padding-top: 15px;
+    
+}
+footer i{
+    color: red;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+}
+.content{
+    margin-top: 20px;
+    margin-left: 20px ;
+    margin-right: 20px;
+}
+.content h1{
+    margin-left: 850px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    
+}
+.content p{
+    margin-left: 570px;
+    text-align: justify;
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    text-indent: 25px;
+    position: relative;
+}
+.video iframe{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 20px;
+    border: solid 5px white;
+}
+.services{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 550px;
+}
+.slider{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    overflow: hidden ;
+    border: solid 15px black;
+    height: 500px;
+    background-color: darkkhaki;
+}
+.slider .picture{
+    position: relative;
+    width: 150%;
+    animation-name: slide;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    float: left;
+}
+.slider .picture .picture1 img{
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    
+}
+.slider .picture .picture1 h1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 40px;
+    margin-top: 300px;
+}
+.slider .picture .picture1 p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    margin-left: 10px;
+    margin-top:330px ;
+}
+.slider .picture .picture2 img{
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 600px;
+    margin-top: -35px;
+}
+.slider .picture .picture2 h1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 580px;
+    margin-top: 280px;
+}
+.slider .picture .picture2 p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    margin-left: 450px;
+    margin-top: 330px;
+}
+.slider .picture .picture3 img{
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 1100px;
+    margin-top: -40px;
+    
+}
+.slider .picture .picture3 h1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 1150px;
+    margin-top: 260px;
+}
+.slider .picture .picture3 p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    margin-left: 980px;
+    margin-top: 290px;
+}
+.slider .picture .picture4 img{
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 1680px;
+    margin-top: -50px;
+   
+}
+.slider .picture .picture4 h1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 1750px;
+    margin-top: 240px;
+}
+.slider .picture .picture4 p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    margin-left: 1600px;
+    margin-top: 290px;
+}
+@keyframes slide{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    40%{
+        left: -20%;
+    }
+    60%{
+        left: -40%;
+    }
+    80%{
+        left: -60%;
+    }
+    100%{
+        left: -80%;
+    }
+    
+}

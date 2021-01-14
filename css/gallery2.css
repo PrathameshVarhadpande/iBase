@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: dimgray;
+}
+footer{
+    background-color: black;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+    height: 70px;
+    padding-top: 15px;
+    
+}
+footer i{
+    color: red;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+}
+.head{
+    margin-top: 20px;
+    margin-left: 290px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: purple;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 900px;
+    border-radius: 60px;
+    border: solid 5px white;
+    text-align: center;
+}
+.slider{
+    border: solid 15px white;
+    overflow: hidden;
+    margin-left: 320px;
+    margin-right: 20px;
+    margin-top: 20px;
+    position: relative;
+    width: 850px;
+    height: 500px;
+    background-color: darkkhaki;
+}
+.slider .images{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200%;
+    animation-name: slide;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    float: left;
+    
+}
+.slider .images .photo1 img{
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    margin-left: 20px;
+}
+.slider .images .photo2 img{
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    margin-left: 860px;
+}
+.slider .images .photo3 img{
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    margin-left: 1700px;    
+}
+.slider .images .photo4 img{
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    margin-left: 2540px;
+}
+.slider .images .photo5 img{
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    margin-left: 3400px; 
+}
+.slider .images .photo6 img{
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    margin-left: 4240px;
+}
+.slider .images .photo7 img{
+    position:absolute;
+    width: 800px;
+    height: 450px;
+    margin-left: 5080px;
+}
+@keyframes slide{
+    0%{
+        left: 0%;
+    }
+    15%{
+        left: 0%;
+    }
+    30%{
+        left: -100%;
+    }
+    45%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    75%{
+        left: -400%;
+    }
+    90%{
+        left: -500%;
+    }
+    100%{
+        left: -600%;
+    }
+    
+}
